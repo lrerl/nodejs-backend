@@ -1,6 +1,7 @@
 import {Table, Model, Column, DataType, BelongsToMany} from "sequelize-typescript";
 import {ApiProperty} from "@nestjs/swagger";
 import {Role} from "../roles/roles.model";
+import {UserRoles} from "../roles/user-roles.model";
 
 
 
